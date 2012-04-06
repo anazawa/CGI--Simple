@@ -7,7 +7,7 @@ lib/CGI/Simple/Standard.pm
 lib/CGI/Simple/Util.pm
 Makefile.PL
 MANIFEST
-META.yml
+MYMETA.json
 README
 t/000.load.t
 t/020.cookie.t
@@ -22,6 +22,16 @@ t/090.14838.t
 t/100.set-cookie.t
 t/110.bad-upload.t
 t/headers.t
+t/headers/00_default.t
+t/headers/10_type.t
+t/headers/11_charset.t
+t/headers/12_content_type.t
+t/headers/20_attachment.t
+t/headers/30_cookie.t
+t/headers/31_set_cookie.t
+t/headers/40_p3p.t
+t/headers/50_nph.t
+t/headers/60_target.t
 t/manifest.t
 t/pod-coverage.t
 t/pod.t

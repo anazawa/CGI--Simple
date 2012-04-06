@@ -13,6 +13,7 @@ WriteMakefile(
     'Test::More' => 0,
     'IO::Scalar' => 0
   },
+  test => { TESTS => 't/*.t t/headers/*.t' },
   dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
   clean => { FILES    => 'CGI-Simple-*' },
 );
